@@ -8,12 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		7F38707E2A886183004EBCD3 /* Gymbo_MathApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F38707D2A886183004EBCD3 /* Gymbo_MathApp.swift */; };
-		7F3870802A886183004EBCD3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F38707F2A886183004EBCD3 /* ContentView.swift */; };
+		7F3870802A886183004EBCD3 /* NewSetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F38707F2A886183004EBCD3 /* NewSetView.swift */; };
 		7F3870822A886185004EBCD3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F3870812A886185004EBCD3 /* Assets.xcassets */; };
 		7F3870852A886185004EBCD3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F3870842A886185004EBCD3 /* Preview Assets.xcassets */; };
 		7F38708F2A886186004EBCD3 /* Gymbo_MathTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F38708E2A886186004EBCD3 /* Gymbo_MathTests.swift */; };
 		7F3870992A886186004EBCD3 /* Gymbo_MathUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F3870982A886186004EBCD3 /* Gymbo_MathUITests.swift */; };
 		7F38709B2A886186004EBCD3 /* Gymbo_MathUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F38709A2A886186004EBCD3 /* Gymbo_MathUITestsLaunchTests.swift */; };
+		7F3870A82A8872CB004EBCD3 /* BarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F3870A72A8872CB004EBCD3 /* BarView.swift */; };
+		7F3870AA2A8872DA004EBCD3 /* Dumbbell view.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F3870A92A8872DA004EBCD3 /* Dumbbell view.swift */; };
+		7F8553602A97E7BB0037A740 /* ThisSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F85535F2A97E7BB0037A740 /* ThisSet.swift */; };
+		7F8553622A97E9E60037A740 /* WorkoutSummary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F8553612A97E9E60037A740 /* WorkoutSummary.swift */; };
+		7F8553642A97F0CE0037A740 /* ExerciseSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F8553632A97F0CE0037A740 /* ExerciseSum.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +41,7 @@
 /* Begin PBXFileReference section */
 		7F38707A2A886183004EBCD3 /* Gymbo_Math.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Gymbo_Math.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F38707D2A886183004EBCD3 /* Gymbo_MathApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gymbo_MathApp.swift; sourceTree = "<group>"; };
-		7F38707F2A886183004EBCD3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		7F38707F2A886183004EBCD3 /* NewSetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewSetView.swift; sourceTree = "<group>"; };
 		7F3870812A886185004EBCD3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7F3870842A886185004EBCD3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		7F38708A2A886186004EBCD3 /* Gymbo_MathTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Gymbo_MathTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +49,11 @@
 		7F3870942A886186004EBCD3 /* Gymbo_MathUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Gymbo_MathUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F3870982A886186004EBCD3 /* Gymbo_MathUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gymbo_MathUITests.swift; sourceTree = "<group>"; };
 		7F38709A2A886186004EBCD3 /* Gymbo_MathUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gymbo_MathUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		7F3870A72A8872CB004EBCD3 /* BarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarView.swift; sourceTree = "<group>"; };
+		7F3870A92A8872DA004EBCD3 /* Dumbbell view.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Dumbbell view.swift"; sourceTree = "<group>"; };
+		7F85535F2A97E7BB0037A740 /* ThisSet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThisSet.swift; sourceTree = "<group>"; };
+		7F8553612A97E9E60037A740 /* WorkoutSummary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutSummary.swift; sourceTree = "<group>"; };
+		7F8553632A97F0CE0037A740 /* ExerciseSum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseSum.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,10 +104,14 @@
 		7F38707C2A886183004EBCD3 /* Gymbo_Math */ = {
 			isa = PBXGroup;
 			children = (
+				7F85535E2A97E78C0037A740 /* Models */,
 				7F38707D2A886183004EBCD3 /* Gymbo_MathApp.swift */,
-				7F38707F2A886183004EBCD3 /* ContentView.swift */,
+				7F38707F2A886183004EBCD3 /* NewSetView.swift */,
+				7F3870A92A8872DA004EBCD3 /* Dumbbell view.swift */,
+				7F3870A72A8872CB004EBCD3 /* BarView.swift */,
 				7F3870812A886185004EBCD3 /* Assets.xcassets */,
 				7F3870832A886185004EBCD3 /* Preview Content */,
+				7F8553612A97E9E60037A740 /* WorkoutSummary.swift */,
 			);
 			path = Gymbo_Math;
 			sourceTree = "<group>";
@@ -125,6 +139,15 @@
 				7F38709A2A886186004EBCD3 /* Gymbo_MathUITestsLaunchTests.swift */,
 			);
 			path = Gymbo_MathUITests;
+			sourceTree = "<group>";
+		};
+		7F85535E2A97E78C0037A740 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				7F85535F2A97E7BB0037A740 /* ThisSet.swift */,
+				7F8553632A97F0CE0037A740 /* ExerciseSum.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,8 +280,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7F3870802A886183004EBCD3 /* ContentView.swift in Sources */,
+				7F8553622A97E9E60037A740 /* WorkoutSummary.swift in Sources */,
+				7F3870AA2A8872DA004EBCD3 /* Dumbbell view.swift in Sources */,
+				7F3870A82A8872CB004EBCD3 /* BarView.swift in Sources */,
+				7F3870802A886183004EBCD3 /* NewSetView.swift in Sources */,
 				7F38707E2A886183004EBCD3 /* Gymbo_MathApp.swift in Sources */,
+				7F8553602A97E7BB0037A740 /* ThisSet.swift in Sources */,
+				7F8553642A97F0CE0037A740 /* ExerciseSum.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
